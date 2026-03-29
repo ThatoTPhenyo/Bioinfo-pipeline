@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# R
+.Rhistory
+.RData
+
+# Data and results
+data/
+results/
+
+# Bioinformatics files
+*.fastq
+*.fq
+*.bam
+*.sam
+*.vcf
+
+# OS files
+.DS_Store
