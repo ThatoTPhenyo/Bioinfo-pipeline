@@ -1,9 +1,9 @@
 print('Starting pipeline')
 print('Loading input data')
 
-# Exclude sequences shorter than 5
+# Exclude sequences shorter than 3
 def qc_sequences(seq_list):
-    return [seq for seq in seq_list if len(seq) >= 5]
+    return [seq for seq in seq_list if len(seq) >= 3]
 
 print('Checking file formats')
 print('Running quality control')
